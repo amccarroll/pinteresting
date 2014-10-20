@@ -4,7 +4,6 @@ Pinteresting::Application.routes.draw do
   devise_for :users
   root "pages#home"
   get 'about' => 'pages#about'
-  get 'design' => 'pages#design'
   get 'belgrade' => 'pages#belgrade'
   
   # The priority is based upon order of creation: first created -> highest priority.
